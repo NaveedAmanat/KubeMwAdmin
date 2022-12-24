@@ -6,7 +6,7 @@
     <groupId>com.idev4.admin</groupId>
     <artifactId>adminservice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <!--<packaging>jar</packaging>-->
     <name>Adminservice</name>
 
@@ -380,8 +380,13 @@
         </dependency>
         <!-- jhipster-needle-maven-add-dependency -->
         <!-- more information at https://blogs.oracle.com/dev2dev/entry/how_to_get_oracle_jdbc -->
+        <!--        <dependency>-->
+        <!--            <groupId>com.oracle.jdbc</groupId>-->
+        <!--            <artifactId>ojdbc8</artifactId>-->
+        <!--            <version>12.2.0.1</version>-->
+        <!--        </dependency>-->
         <dependency>
-            <groupId>com.oracle.jdbc</groupId>
+            <groupId>com.oracle.database.jdbc</groupId>
             <artifactId>ojdbc8</artifactId>
             <version>12.2.0.1</version>
         </dependency>
